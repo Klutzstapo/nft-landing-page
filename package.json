@@ -4,7 +4,10 @@
   "description": "This repo is a work-in-progress and pairs with the Mint 10k NFT project.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -18,13 +21,7 @@
   },
   "homepage": "https://github.com/codeSTACKr/nft-landing-page#readme",
   "dependencies": {
-    "node-fetch": "^2.6.7"
-  }
-,
-  "name": "hashlips_minting_card",
-  "version": "v1.0.0",
-  "private": true,
-  "dependencies": {
+    "node-fetch": "^2.6.7",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -36,13 +33,7 @@
     "web3": "^1.6.0",
     "web3-eth-contract": "^1.6.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
+"eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
@@ -59,6 +50,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "author": "Daniel Eugene Botha (HashLips)"
+  }
 }
+
