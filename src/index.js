@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Minter from "./components/Minter";
-import "./styles/styles.css";
+import Minter from "Klutzstapo/nft-landing-page/src/components/Minter.js";
+import "Klutzstapo/nft-landing-page/src/styles/styles.css";
 
 ReactDOM.render(
   <React.StrictMode>

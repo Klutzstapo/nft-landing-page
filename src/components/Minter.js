@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Web3 from "web3";
-import contract from "../contracts/contract.json";
-import Hero from "../assets/hero.png";
+import contract from "Klutzstapo/nft-landing-page/src/contracts/contract.json";
+import Hero from "Klutzstapo/nft-landing-page/src/assets/hero.png";
 
 const initialInfoState = {
   connected: false,
